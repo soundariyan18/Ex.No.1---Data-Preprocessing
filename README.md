@@ -11,6 +11,7 @@ Anaconda – Python 3.7 Installation / Google Colab /Jupiter Notebook
 ## RELATED THEORETICAL CONCEPT:
 
 Kaggle :
+
 Kaggle, a subsidiary of Google LLC, is an online community of data scientists and machine learning practitioners. Kaggle allows users to find and publish data sets, explore and build models in a web-based data-science environment, work with other data scientists and machine learning engineers, and enter competitions to solve data science challenges.
 
 Data Preprocessing:
@@ -87,7 +88,7 @@ print("Size of X_test: ",len(X_test))
 
 HEAD:
 
-![MODEL]()
+![MODEL]('https://github.com/soundariyan18/Ex.No.1---Data-Preprocessing/blob/main/Screenshot%202023-08-26%20094933.png')
 
 INFO:
 
