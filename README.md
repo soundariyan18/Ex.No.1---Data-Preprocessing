@@ -3,7 +3,8 @@
 
 To perform Data preprocessing in a data set downloaded from Kaggle
 
-##REQUIPMENTS REQUIRED:
+## REQUIPMENTS REQUIRED:
+
 Hardware – PCs
 Anaconda – Python 3.7 Installation / Google Colab /Jupiter Notebook
 
@@ -24,18 +25,93 @@ Another aspect is that the data set should be formatted in such a way that more 
 
 
 ## ALGORITHM:
+
+step 1:
 Importing the libraries
+
+step 2:
 Importing the dataset
+
+step 3:
 Taking care of missing data
+
+step 4:
 Encoding categorical data
+
+step 5:
 Normalizing the data
+
+step 6:
 Splitting the data into test and train
 
+
 ## PROGRAM:
-/Write your code here/
+
+```python
+import pandas as pd
+df=pd.read_csv('Churn_Modelling.csv')
+df.head()
+
+df.info()
+
+x = df.iloc[:,:-1].values
+x
+
+y= df.iloc[:,1].values
+y
+
+df.describe()
+
+from sklearn.preprocessing import LabelEncoder
+le = LabelEncoder()
+df1 = df.copy()
+df1["Geography"] = le.fit_transform(df1["Geography"])
+df1["Gender"] = le.fit_transform(df1["Gender"])
+from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import MinMaxScaler
+scaler = MinMaxScaler()
+df1[["CreditScore","Geography","Age","Tenure","Balance","NumOfProducts","EstimatedSalary"]] = pd.DataFrame(scaler.fit_transform(df1[["CreditScore","Geography","Age","Tenure","Balance","NumOfProducts","EstimatedSalary"]]))
+df1.describe()
+
+from sklearn.model_selection import train_test_split
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
+print(X_train)
+print("Size of X_train: ",len(X_train))
+
+print(X_test)
+print("Size of X_test: ",len(X_test))
+```
+
 
 ## OUTPUT:
-/ Show the result/
 
-## RESULT
-/Type your result here/
+HEAD:
+
+![MODEL]()
+
+INFO:
+
+![MODEL]()
+![MODEL]()
+![MODEL]()
+
+DESCRIBE BEFORE NORMALING:
+
+![MODEL]()
+
+DESCRIBE AFTER NORMALING:
+
+![MODEL]()
+
+SIZE OF X_TRAIN:
+
+![MODEL]()
+
+SIZE OF X_TEST:
+
+![MODEL]()
+
+## RESULT:
+
+Data preprocessing is performed in the given dataset..!!
+
