@@ -93,8 +93,11 @@ HEAD:
 INFO:
 
 ![MODEL]('https://github.com/soundariyan18/Ex.No.1---Data-Preprocessing/blob/main/Screenshot%202023-08-26%20094945.png')
+
 ![MODEL]('https://github.com/soundariyan18/Ex.No.1---Data-Preprocessing/blob/main/Screenshot%202023-08-26%20094957.png')
+
 ![MODEL](https://github.com/soundariyan18/Ex.No.1---Data-Preprocessing/blob/main/Screenshot%202023-08-26%20095007.png)
+
 
 DESCRIBE BEFORE NORMALING:
 
