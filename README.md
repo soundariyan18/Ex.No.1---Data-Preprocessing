@@ -88,20 +88,20 @@ print("Size of X_test: ",len(X_test))
 
 HEAD:
 
-![MODEL]('https://github.com/soundariyan18/Ex.No.1---Data-Preprocessing/blob/main/Screenshot%202023-08-26%20094933.png')
+![MODEL](https://github.com/soundariyan18/Ex.No.1---Data-Preprocessing/blob/main/Screenshot%202023-08-26%20094933.png)
 
 INFO:
 
-![MODEL]('https://github.com/soundariyan18/Ex.No.1---Data-Preprocessing/blob/main/Screenshot%202023-08-26%20094945.png')
+![MODEL](https://github.com/soundariyan18/Ex.No.1---Data-Preprocessing/blob/main/Screenshot%202023-08-26%20094945.png)
 
-![MODEL]('https://github.com/soundariyan18/Ex.No.1---Data-Preprocessing/blob/main/Screenshot%202023-08-26%20094957.png')
+![MODEL](https://github.com/soundariyan18/Ex.No.1---Data-Preprocessing/blob/main/Screenshot%202023-08-26%20094957.png)
 
 ![MODEL](https://github.com/soundariyan18/Ex.No.1---Data-Preprocessing/blob/main/Screenshot%202023-08-26%20095007.png)
 
 
 DESCRIBE BEFORE NORMALING:
 
-![MODEL]()
+![MODEL](https://github.com/soundariyan18/Ex.No.1---Data-Preprocessing/blob/main/Screenshot%202023-08-26%20095043.png)
 
 DESCRIBE AFTER NORMALING:
 
