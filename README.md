@@ -105,7 +105,7 @@ DESCRIBE BEFORE NORMALING:
 
 DESCRIBE AFTER NORMALING:
 
-![MODEL]()
+![MODEL](https://github.com/soundariyan18/Ex.No.1---Data-Preprocessing/blob/main/Screenshot%202023-08-26%20095059.png)
 
 SIZE OF X_TRAIN:
 
