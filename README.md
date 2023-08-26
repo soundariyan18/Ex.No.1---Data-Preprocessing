@@ -109,7 +109,7 @@ DESCRIBE AFTER NORMALING:
 
 SIZE OF X_TRAIN:
 
-![MODEL]()
+![MODEL](https://github.com/soundariyan18/Ex.No.1---Data-Preprocessing/blob/main/Screenshot%202023-08-26%20095110.png)
 
 SIZE OF X_TEST:
 
